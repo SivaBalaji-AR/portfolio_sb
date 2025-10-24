@@ -37,7 +37,7 @@ export function Hero() {
 
       {/* Name + Flipping Roles */}
       <motion.div
-        initial={{ opacity: 0, y: 40 }}a
+        initial={{ opacity: 0, y: 40 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 1.2 }}
         className="flex flex-col items-center justify-center gap-2 sm:gap-3 text-center mb-6"
@@ -66,7 +66,7 @@ export function Hero() {
   <span className="text-[#61DAFB] font-semibold">React</span>,{" "}
   <span className="text-[#000000] dark:text-[#FFFFFF] font-semibold">Next.js</span>, and{" "}
   <span className="text-[#008080] font-semibold">FastAPI</span>.{" "}
-  My goal is simple: craft technology that doesn’t just work — it performs, scales, and provides an intuitive user experience.
+  My goal is simple: craft technology that doesn't just work — it performs, scales, and provides an intuitive user experience.
 </motion.p>
 
 
