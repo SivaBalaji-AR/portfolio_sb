@@ -2,26 +2,12 @@ import { Card } from "@/components/ui/card"
 
 const experiences = [
   {
-    role: "Senior Full Stack Developer",
-    company: "Tech Startup Inc.",
-    period: "2022 - Present",
+    role: "Full Stack Developer Intern",
+    company: "IAMNEO",
+    period: "2025 - Present",
     description:
-      "Leading development of core platform features, mentoring junior developers, and architecting scalable solutions.",
-  },
-  {
-    role: "Full Stack Developer",
-    company: "Digital Agency Co.",
-    period: "2020 - 2022",
-    description:
-      "Built and maintained multiple client projects, implemented responsive designs, and optimized application performance.",
-  },
-  {
-    role: "Frontend Developer",
-    company: "Web Solutions Ltd.",
-    period: "2018 - 2020",
-    description:
-      "Developed interactive user interfaces, collaborated with designers, and improved code quality through testing.",
-  },
+      "Developed and scaled features for 'NeoHire,' a multi-tenant SaaS hiring tool.",
+  }
 ]
 
 export function Experience() {

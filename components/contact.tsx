@@ -16,48 +16,44 @@ export function Contact() {
           <div className="text-center">
             <Mail className="mx-auto mb-4 text-primary" size={32} />
             <h3 className="font-semibold mb-2">Email</h3>
-            <a href="mailto:hello@example.com" className="text-muted-foreground hover:text-primary transition-colors">
-              hello@example.com
+            <a href="mailto:sivabalajiar@gmail.com" className="text-muted-foreground hover:text-primary transition-colors">
+              sivabalajiar@gmail.com
             </a>
           </div>
           <div className="text-center">
             <Linkedin className="mx-auto mb-4 text-primary" size={32} />
             <h3 className="font-semibold mb-2">LinkedIn</h3>
-            <a href="#" className="text-muted-foreground hover:text-primary transition-colors">
-              linkedin.com/in/yourprofile
+            <a href="https://in.linkedin.com/in/siva-balaji-a-r" className="text-muted-foreground hover:text-primary transition-colors">
+              https://in.linkedin.com/in/siva-balaji-a-r
             </a>
           </div>
         </div>
 
         <div className="flex justify-center gap-4 mb-12">
           <a
-            href="#"
+            href="https://github.com/SivaBalaji-AR"
             className="p-3 rounded-lg border border-border hover:border-primary hover:bg-primary/5 transition-colors"
           >
             <Github size={24} />
           </a>
           <a
-            href="#"
+            href="https://in.linkedin.com/in/siva-balaji-a-r"
             className="p-3 rounded-lg border border-border hover:border-primary hover:bg-primary/5 transition-colors"
           >
             <Linkedin size={24} />
           </a>
           <a
-            href="#"
+            href="https://x.com/siva_balaji_046"
             className="p-3 rounded-lg border border-border hover:border-primary hover:bg-primary/5 transition-colors"
           >
             <Twitter size={24} />
           </a>
           <a
-            href="#"
+            href="mailto:sivabalajiar@gmail.com"
             className="p-3 rounded-lg border border-border hover:border-primary hover:bg-primary/5 transition-colors"
           >
             <Mail size={24} />
           </a>
-        </div>
-
-        <div className="text-center">
-          <Button size="lg">Send Me an Email</Button>
         </div>
       </div>
     </section>

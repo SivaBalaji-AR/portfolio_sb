@@ -7,16 +7,12 @@ const skillCategories = [
   },
   {
     category: "Backend",
-    skills: ["Node.js", "Express", "PostgreSQL", "MongoDB", "Firebase", "REST APIs"],
+    skills: ["Node.js", "Express", "FastAPI", "PostgreSQL", "MongoDB", "Firebase", "REST APIs"],
   },
   {
     category: "Tools & Platforms",
     skills: ["Git", "Docker", "AWS", "Vercel", "GitHub", "VS Code"],
-  },
-  {
-    category: "Design",
-    skills: ["Figma", "UI/UX Design", "Responsive Design", "Accessibility", "Design Systems"],
-  },
+  }
 ]
 
 export function Skills() {

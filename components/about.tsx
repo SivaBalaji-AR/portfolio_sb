@@ -21,19 +21,19 @@ export function About() {
           </div>
           <div className="space-y-6">
             <div className="rounded-lg border border-border bg-card p-6">
-              <h3 className="font-semibold mb-2">🎯 Focus Areas</h3>
+              <h3 className="font-semibold mb-2">Focus Areas</h3>
               <p className="text-sm text-muted-foreground">
                 Full Stack Applications, AI/ML Developer, Performance Optimization
               </p>
             </div>
             <div className="rounded-lg border border-border bg-card p-6">
-              <h3 className="font-semibold mb-2">📚 Currently Learning</h3>
+              <h3 className="font-semibold mb-2">Currently Learning</h3>
               <p className="text-sm text-muted-foreground">
                 Advanced TypeScript patterns, Web Performance, Cloud Architecture
               </p>
             </div>
             <div className="rounded-lg border border-border bg-card p-6">
-              <h3 className="font-semibold mb-2">🌍 Based In</h3>
+              <h3 className="font-semibold mb-2">Based In</h3>
               <p className="text-sm text-muted-foreground">Tamil Nadu, India • Available for remote work worldwide</p>
             </div>
           </div>

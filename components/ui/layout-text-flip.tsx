@@ -36,7 +36,9 @@ export const LayoutTextFlip = ({
           exit={{ y: "-100%", opacity: 0 }}
           transition={{ duration: 0.45, ease: "easeInOut" }}
           className="flex items-center justify-center whitespace-nowrap 
-                     bg-gradient-to-b from-neutral-50 to-neutral-500 
+                     bg-gradient-to-b 
+                     from-neutral-900 to-neutral-400 
+                     dark:from-neutral-50 dark:to-neutral-500
                      bg-clip-text text-transparent"
         >
           {words[index]}
